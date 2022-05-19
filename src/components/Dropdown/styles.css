@@ -1,0 +1,80 @@
+
+
+.selectedBox{
+    display: flex;
+    width: 8em;
+    padding: 0.4em;
+    height: 1.5em;
+    background-color: white;
+    border: 2px rgb(33, 193, 73, 0.7) solid;
+    justify-content: space-between;
+    border-radius: 0.3em;
+    box-shadow: 0 0 2px rgb(33, 193, 73, 0.7);
+}
+
+
+.notSelectedBox{
+    display: flex;
+    width: 8em;
+    padding: 0.4em;
+    height: 1.5em;
+    background-color: white;
+    border: 2px rgba(195, 203, 196, 0.7) solid;
+    justify-content: space-between;
+    border-radius: 0.3em;
+    box-shadow: 0 0 2px rgb(33, 193, 73, 0.7);
+}
+.arrow{
+    width: 1em;
+    padding: 0 3px;
+    filter: invert(68%) sepia(22%) saturate(558%) hue-rotate(83deg) brightness(83%) contrast(85%);
+}
+
+.iconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bafacb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em; 
+    border-radius: 0.3em;
+    box-shadow: 0 0 8px rgb(134, 130, 130,0.4);
+    transition: all;
+    overflow: hidden;
+    max-height: 200px;
+    transition-duration: 500ms;
+    transition-delay: 200ms;
+}
+.index{
+    cursor: pointer;
+    padding: 0.2em 1em;
+}
+
+.selectedIndex{
+    background-color: rgb(157, 250, 194, 0.4);
+    cursor: pointer;
+    padding: 0.2em 1em;
+}
+
+.itemsHide{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em; 
+    border-radius: 0.3em;
+    box-shadow: 0 0 8px rgb(134, 130, 130,0.4);
+    max-height: 0;
+    transition: all;
+    overflow: hidden;
+    transition-duration: 500ms;
+
+}
+.drop{
+  
+    padding: 1em;
+}
